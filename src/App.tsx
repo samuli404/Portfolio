@@ -1,11 +1,16 @@
-// App.tsx
 import React from 'react'
-import MyFirstComponent from './components/myFirstComponent';
+import SomeExampleComponent from './components/example/someExampleComponent'
+import MyFirstComponent from './components/myFirstComponent'
 
-const App: React.FC = () => {
+type AppProps = {
+
+}
+
+const App: React.FC<AppProps> = () => {
   return (
     <div>
-      <MyFirstComponent />
+      <SomeExampleComponent/>
+      <MyFirstComponent/>
     </div>
   )
 }
