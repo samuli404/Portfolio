@@ -9,6 +9,9 @@ Switch,
 Route,
 Link
 } from 'react-router-dom';
+import Main from './components/pages/main/main'
+import Project from './components/pages/main/project/project'
+import Cv from './components/pages/main/project/cv/cv'
 
 type AppProps = {
 
@@ -22,17 +25,19 @@ const App: React.FC<AppProps> = () => {
      {/* The navigation bar and other components you want to display on all pages come here */}
      <div className={styles.navbar}>
        <Link to='/'>Front page</Link>
-       <Link to='example'>Look my example component</Link>
+       <Link to='/projects'>projects</Link>
+       <Link to='/cv'>cv</Link>
      </div>
 
      <Switch>
        {/* Changing content comes here */}
-       <Route exact path='/' component={MyFirstComponent} />
-       <Route exact path='/example' component={SomeExampleComponent}/>
+       <Route exact path='/' component={Main} />
+       <Route exact path='/projects' component={Project}/>
+       <Route exact path='/cv' component={Cv}/>
      </Switch>
 
      {/* The footer and other components you want to display on all pages come here */}
-     <ClickCount />
+     {/* <ClickCount /> */}
 
    </Router>
   )
