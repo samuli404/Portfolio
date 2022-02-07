@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './App.module.scss'
 import {
-BrowserRouter as Router,
-Switch,
-Route,
-Link
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
 } from 'react-router-dom';
 import Main from './components/pages/main/main'
 import Project from './components/pages/main/project/project'
