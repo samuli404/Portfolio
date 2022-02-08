@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+   justify-items: center;
+   align-items: center;
+   position: relative;
+   height: 100vh;
+   background-image: url('../../media2/royalty-free-background-image-14.jpg');
+   background-size: cover;
+   .main1{
+        background: rgba(0, 0, 0, 0.500);
+        padding: 200px;
+        width: 70%;
+        position: absolute;
+        bottom: 15px;
+   }
+   .main2{
+        background: rgba(0, 0, 0, 0.500);
+        padding: 200px;
+        width: 10px;
+        position: absolute;
+        right: 81px;
+        top: 20px;
+    }
+    .kuva{
+        height: 150px;
+        width: auto;
+    }
+}
