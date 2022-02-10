@@ -8,22 +8,42 @@
    background-image: url('../../media2/royalty-free-background-image-14.jpg');
    background-size: cover;
    .main1{
-        background: rgba(0, 0, 0, 0.500);
-        padding: 200px;
-        width: 70%;
-        position: absolute;
-        bottom: 15px;
+        background: rgb(255, 255, 255);
+        height: 520px;
+        width: 1902px;
+
    }
    .main2{
         background: rgba(0, 0, 0, 0.500);
-        padding: 200px;
-        width: 10px;
+
+        width: 350px;
+        height: 350px;
+
         position: absolute;
         right: 81px;
         top: 20px;
+        border: 1px solid rgba(192, 192, 192, 0.120);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .kuva{
+            height: 300px;
+            width: auto;
+            right: 70px;
+        }
     }
-    .kuva{
-        height: 150px;
-        width: auto;
-    }
+    .main3{
+        background: rgba(0, 0, 0, 0.5);
+        height: 520px;
+        width: 1903px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   }
+   .main4{
+       background: red;
+   }
 }

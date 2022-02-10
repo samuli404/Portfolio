@@ -6,9 +6,9 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-import Main from './components/pages/main/main'
-import Project from './components/pages/main/project/project'
-import Cv from './components/pages/main/project/cv/cv'
+import Main from './components/pages/main2/main'
+import Project from './components/pages/project/project'
+import Cv from './components/pages/cv/cv'
 
 type AppProps = {
 
