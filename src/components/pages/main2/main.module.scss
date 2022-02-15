@@ -8,41 +8,71 @@
     background-image: url('../../media2/royalty-free-background-image-14.jpg');
     background-size: cover;
 
+    .contentTop {
+        background-color: aliceblue;
+        width: 1902px;
+        height: 750px;
+
+        display: flex;
+        justify-content: center;
+        margin-bottom: 150px;
+
+        .containerPictures {
+            border-radius: 15px 50px;
+            background: #73AD21;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+        }
+    }
+
     .contentRow {
-        margin: 20px;
-        height: 400px;
+        margin-top: 20px;
+        height: 1000px;
         display: flex;
         flex-direction: row;
 
         .contentLeft {
-            background: orangered;
+            background: rgba(0, 0, 0, 0.5);
             width: 45vw;
             height: 100%;
-            margin: 0 10px;
+            
 
             h1 {
-                color: hotpink;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                
             }   
 
             p {
-
+                color: rgb(255, 255, 255);
+            }
+            h2 {
+                color:aliceblue
             }
         }
 
         .contentRight {
-            // background-color: orange;
+            background-color: rgba(0, 0, 0, 0.5);
             width: 45vw;
             height: 100%;
-            margin: 0 10px;
+            
 
             display: flex;
             justify-content: center;
-            align-items: center;
+            
             
             img {
                 height: 330px;
+                margin-top: 15px;
+                box-shadow: 0px 0px 9px 3px #ffd591;
+                border-radius: 15px;
+                padding: 3px;
             }
         }
+
+        
+
 
         @media screen and (max-width: 850px ) {
             flex-direction: column-reverse;
