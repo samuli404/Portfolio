@@ -21,9 +21,9 @@ const App: React.FC<AppProps> = () => {
       
      {/* The navigation bar and other components you want to display on all pages come here */}
      <div className={styles.navbar}>
-       <Link to='/'>Front page</Link>
-       <Link to='/projects'>projects</Link>
-       <Link to='/cv'>cv</Link>
+       <Link to='/'>Home</Link>
+       <Link to='/projects'>Projects</Link>
+       <Link to='/cv'>Cv</Link>
      </div>
 
      <Switch>

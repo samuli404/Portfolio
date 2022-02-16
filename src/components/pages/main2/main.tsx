@@ -19,7 +19,12 @@ const Main: React.FC<MainProps> = () => {
         </div>
       </div>
       <div className={styles.contentTop}>
-          
+          <div className={styles.containerImages}>
+
+          </div>
+          <div className={styles.containerImages2}>
+            
+          </div>
         </div>
       
 
