@@ -1,0 +1,52 @@
+// componentin perus layout
+.container {
+    background: hotpink;
+    height: 100vh;
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.container .flexRow {
+    background: red;
+    min-height: 10px;
+    border-bottom: 1px solid #000;
+}
+
+// splitattu flexrow
+.container .flexRow .split50 {
+    display: flxe;
+    flex-direction: row;
+}
+
+.container .flexRow .split50 .flexLeft {
+    width: 50%;
+    background: rgb(255, 255, 255);
+    height: 100%;
+}
+
+.container .flexRow .split50 .flexRight {
+    width: 50%;
+    background: #fff;
+    height: 100%;
+}
+
+// wrappaava flexi, itemit rivittyy
+.container .flexRow .projektiKuvat {
+    background: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+// yksi rivittyvä itemi
+.container .flexRow .projektiKuvat .imgItem {
+    background-color: silver;
+    height: 80px;
+    width: 80px;
+    margin: 15px;
+}

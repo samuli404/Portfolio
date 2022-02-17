@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './main.module.scss';
-import kuva from '../../media3/Muokattu.jpg';
+import kuva1 from '../../media3/Muokattu.jpg';
 type MainProps = {
 
 }
@@ -15,20 +15,13 @@ const Main: React.FC<MainProps> = () => {
             <h2>My first game</h2>
         </div>
         <div className={styles.contentRight}>
-            <img src={kuva} alt="Kuva on rikki D:" />
+            <img src={kuva1} alt="Kuva on rikki D:" />
         </div>
+        <div className={styles.contentTop}>
+        <div className={styles.containerImages}></div>
+        <div className={styles.containerImages2}></div>
       </div>
-      <div className={styles.contentTop}>
-          <div className={styles.containerImages}>
-
-          </div>
-          <div className={styles.containerImages2}>
-            
-          </div>
-        </div>
-      
-
-      
+      </div>
     </div>
   )
 }
