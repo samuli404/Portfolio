@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './main3.module.scss';
 import kuva from '../media3/Muokattu.jpg'
+import pelikuva from '../media5/Unitylogopeliin.jpg'
 
 const Example3: React.FC = () => {
     return (
@@ -20,14 +21,16 @@ const Example3: React.FC = () => {
 
             <div className={styles.flexRow}>
                 <div className={styles.projektiKuvat}>
-                    <div className={styles.imgItem}></div>
+                    <img className={styles.imgItem} src={pelikuva} alt="EI toimi!"/>
+                    
+                    </div>
                     <div className={styles.imgItem}></div>
                     <div className={styles.imgItem}></div>
                     <div className={styles.imgItem}></div>
                 </div>
             </div>
 
-        </div>
+        
     )
 }
 

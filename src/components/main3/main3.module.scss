@@ -23,6 +23,10 @@
     width: 50%;
     background: rgba(0, 0, 0, 0.5);
     height: 100%;
+
+    .h1 {
+    color: white;////////////////////////////////
+    }
     
 }
 
@@ -54,6 +58,7 @@
     padding: 10px;
     padding-bottom: 30px;
     
+    
 }
 
 
@@ -64,10 +69,19 @@
             padding: 20px;
             width: 200px;
             height: 150px;
+            margin: 40px;
             //margin-top: 50px;
             //margin-right: 0px;
             //margin-left: 90px;
             box-shadow: 0px 0px 9px 3px #86fff5;
 
+            .imgLogo {
+                
+                background: url("../media5/Unitylogopeliin.jpg") no-repeat;
+                
+            }
+            .imgLogo:hover {
+                background: url("../media4/unitykuva.jpg") no-repeat;
+            }
             //img {}
 }

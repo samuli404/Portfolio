@@ -24,15 +24,15 @@ const App: React.FC<AppProps> = () => {
      <div className={styles.navbar}>
        <Link to='/'>Home</Link>
        <Link to='/projects'>Projects</Link>
-       <Link to='/cv'>Cv</Link>
+       <Link to='/cv'>About Me</Link>
      </div>
 
      <Switch>
        {/* Changing content comes here */}
-       <Route exact path='/' component={Main} />
+       <Route exact path='/' component={Main3} />
        <Route exact path='/projects' component={Project}/>
        <Route exact path='/cv' component={Cv}/>
-       <Route exact path='/ex' component={Main3} />
+       
      </Switch>
 
      {/* The footer and other components you want to display on all pages come here */}
