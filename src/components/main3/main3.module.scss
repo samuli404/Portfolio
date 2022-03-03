@@ -1,8 +1,11 @@
 // componentin perus layout
 .container {
-    background-image: url('../media2/royalty-free-background-image-14.jpg');
     height: 100vh;
     width: 100vw;
+    background-color: #63a4ff;
+background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+
+
     
     display: flex;
     flex-direction: column;
@@ -21,18 +24,23 @@
 
 .container .flexRow .split50 .flexLeft {
     width: 50%;
-    background: rgba(0, 0, 0, 0.5);
     height: 100%;
+    text-align: center;
 
-    .h1 {
-    color: white;////////////////////////////////
+    h1 {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    }
+
+    p {
+        color: white;
+        margin-top: 60px;
     }
     
 }
 
 .container .flexRow .split50 .flexRight {
     width: 50%;
-    background: rgba(0, 0, 0, 0.5);
     height: 100%;
     display: flex;
     justify-content: center;
@@ -40,10 +48,11 @@
     
         img {
             height: 350px;
-            margin-top: 15px;
+            margin-top: 12px;
+            margin-bottom: 25px;
             box-shadow: 0px 0px 9px 3px #ffd591;
             border-radius: 15px;
-            padding: 3px;
+            padding: 2px;
             }
     }
 
@@ -56,32 +65,100 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 9px 3px #6a6a6a;
     
     
 }
 
 
 // yksi rivittyvä itemi
-.container .flexRow .projektiKuvat .imgItem {
-    border-radius: 15px 50px;
-            background: #000000;
-            padding: 20px;
+.container .flexRow .projektiKuvat .unityKuva {
+            border-radius: 15px 50px;
+            background-color: black;
             width: 200px;
-            height: 150px;
+            height: 200px;
             margin: 40px;
+            
             //margin-top: 50px;
             //margin-right: 0px;
             //margin-left: 90px;
             box-shadow: 0px 0px 9px 3px #86fff5;
+ 
 
-            .imgLogo {
-                
-                background: url("../media5/Unitylogopeliin.jpg") no-repeat;
-                
-            }
-            .imgLogo:hover {
-                background: url("../media4/unitykuva.jpg") no-repeat;
-            }
-            //img {}
+}
+
+.unityKuva{
+    background-image: url('../media5/Unitylogopeliin.jpg');
+    
+  
+}
+
+.unityKuva:hover {
+
+    width: 600px;
+    height: 550px;
+
+    box-shadow: 0px 0px 9px 3px #86fff5;
+    background-image: url('../media4/1suhde1kuva.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .flexRow .projektiKuvat .unityKuva2 {
+    border-radius: 15px;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    margin-bottom: 100px;
+    //margin-top: 50px;
+    //margin-right: 0px;
+    //margin-left: 90px;
+    box-shadow: 0px 0px 9px 3px #86fff5;
+}
+
+.unityKuva2{
+    background-image: url('../media5/Unitylogopeliin.jpg');
+    
+  
+}
+
+.unityKuva2:hover {
+
+    width: 600px;
+    height: 550px;
+
+    box-shadow: 0px 0px 9px 3px #86fff5;
+    background-image: url('../media4/1suhde1kuva.png');
+    background-repeat: no-repeat;
+}
+
+.container .flexRow .projektiKuvat .unityKuva3 {
+    border-radius: 50px 15px;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    
+    //margin-top: 50px;
+    //margin-right: 0px;
+    //margin-left: 90px;
+    box-shadow: 0px 0px 9px 3px #86fff5;
+}
+
+.unityKuva3{
+    background-image: url('../media5/Unitylogopeliin.jpg');
+    
+  
+}
+
+.unityKuva3:hover {
+
+    width: 600px;
+    height: 550px;
+
+    box-shadow: 0px 0px 9px 3px #86fff5;
+    background-image: url('../media4/unitykuva.jpg');
+    background-repeat: no-repeat;
 }
