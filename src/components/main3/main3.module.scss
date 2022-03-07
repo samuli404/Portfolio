@@ -28,8 +28,12 @@ background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
     text-align: center;
 
     h1 {
-    color: white;
-    font-family: "Times New Roman", Times, serif;
+        color: rgb(0, 0, 0);
+        padding:20px 47px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 9px 3px #6a6a6a;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
     }
 
     p {
@@ -46,15 +50,27 @@ background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
     justify-content: center;
 
     
-        img {
-            height: 350px;
-            margin-top: 12px;
-            margin-bottom: 25px;
-            box-shadow: 0px 0px 9px 3px #ffd591;
-            border-radius: 15px;
-            padding: 2px;
-            }
+    img {
+        height: 350px;
+        margin-top: 12px;
+        margin-bottom: 25px;
+        box-shadow: 0px 0px 9px 3px #ffd591;
+        border-radius: 15px;
+        padding: 1px;
     }
+
+    @media screen and (max-width: 630px) {
+        img {
+            height: 250px;
+        }
+    }
+
+    @media screen and (max-width: 460px) {
+        img {
+            height: 200px;
+        }
+    }
+}
 
 
 // wrappaava flexi, itemit rivittyy
@@ -64,11 +80,9 @@ background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 20px;
     padding-bottom: 20px;
     box-shadow: 0px 0px 9px 3px #6a6a6a;
-    
-    
 }
 
 
@@ -90,6 +104,7 @@ background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
 
 .unityKuva{
     background-image: url('../media5/Unitylogopeliin.jpg');
+    background-size: cover;
     
   
 }
@@ -103,6 +118,10 @@ background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
     background-image: url('../media4/1suhde1kuva.png');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.container .first {
+    min-height: 389px;
 }
 
 .container .flexRow .projektiKuvat .unityKuva2 {
@@ -120,6 +139,7 @@ background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
 
 .unityKuva2{
     background-image: url('../media5/Unitylogopeliin.jpg');
+    background-size: cover;
     
   
 }
@@ -130,12 +150,13 @@ background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
     height: 550px;
 
     box-shadow: 0px 0px 9px 3px #86fff5;
-    background-image: url('../media4/1suhde1kuva.png');
+    background-image: url('../media4/Sieppaaaaaaa.PNG');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container .flexRow .projektiKuvat .unityKuva3 {
-    border-radius: 50px 15px;
+    border-radius: 15px;
     background-color: black;
     width: 200px;
     height: 200px;
@@ -149,6 +170,7 @@ background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
 
 .unityKuva3{
     background-image: url('../media5/Unitylogopeliin.jpg');
+    background-size: cover;
     
   
 }
@@ -159,6 +181,48 @@ background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
     height: 550px;
 
     box-shadow: 0px 0px 9px 3px #86fff5;
-    background-image: url('../media4/unitykuva.jpg');
+    background-image: url('../media4/menukuva.PNG');
     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .flexRow .projektiKuvat .unityKuva4 {
+    border-radius: 50px 15px;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    
+    //margin-top: 50px;
+    //margin-right: 0px;
+    //margin-left: 90px;
+    box-shadow: 0px 0px 9px 3px #86fff5;
+}
+
+.unityKuva4{
+    background-image: url('../media5/Unitylogopeliin.jpg');
+    background-size: cover;
+    
+  
+}
+
+.unityKuva4:hover {
+
+    width: 600px;
+    height: 550px;
+
+    box-shadow: 0px 0px 9px 3px #86fff5;
+    background-image: url('../media4/menuicedodge.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .flexRow .information {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: black;
+    height: 50px;
 }

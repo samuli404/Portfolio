@@ -5,8 +5,7 @@ import {
   Switch,
   Route,
   Link
-} from 'react-router-dom';
-import Main from './components/pages/main2/main'
+} from 'react-router-dom'
 import Project from './components/pages/project/project'
 import Cv from './components/pages/cv/cv'
 import Main3 from './components/main3/main3'
