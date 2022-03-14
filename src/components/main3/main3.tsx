@@ -44,6 +44,14 @@ const Example3: React.FC = () => {
                                 <div className={styles.unityKuva4}></div>
                                 <p>This is my first game</p>
                             </div>
+
+                            <div className={styles.projectCard}>
+                                <div className={styles.unityText}>
+                                <p>This was my first game</p>
+                                </div>
+                                
+                                
+                            </div>
                             
                             </div>
                         

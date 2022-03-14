@@ -31,13 +31,15 @@
     margin-top: 30px;
 
     p {
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         padding:35px 47px;
-        background-color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0);
         box-shadow: 0px 0px 9px 3px #6a6a6a;
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         font-size: 22px
+        
+        
     }
     
 }
@@ -113,13 +115,9 @@
 }
 
 .container .flexRow .projektiKuvat .projectCard {
+
+    text-align: center;    
     
-    text-align: center;
-    
-    
-    .p {
-        color: rgb(255, 0, 0);
-    }
 }
 
 .unityKuva{
@@ -150,7 +148,6 @@
     width: 200px;
     height: 200px;
     margin: 40px;
-    margin-bottom: 100px;
     //margin-top: 50px;
     //margin-right: 0px;
     //margin-left: 90px;
@@ -224,6 +221,7 @@
   
 }
 
+
 .unityKuva4:hover {
 
     width: 600px;
@@ -235,6 +233,27 @@
     background-size: cover;
 }
 
+.container .flexRow .projektiKuvat .unityText {
+
+    display: flex;
+   text-align: center;
+    justify-content: end;
+    width: 500px;
+    height: 150px;
+    margin-top: 50px;
+    border-radius: 15px;
+    
+    
+    color: rgb(0, 0, 0);
+        
+        background-color: rgba(255, 255, 255, 0);
+        box-shadow: 0px 0px 9px 3px #6a6a6a;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 32px
+        
+}
+
 .container .flexRow .information {
 
     display: flex;
@@ -244,4 +263,5 @@
     background: black;
     height: 250px;
     margin-top: 150px;
+    
 }
