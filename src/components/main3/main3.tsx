@@ -3,6 +3,8 @@ import styles from './main3.module.scss';
 import kuva from '../media3/Muokattu.jpg'
 
 
+
+
 const Example3: React.FC = () => {
     return (
         <div className={styles.container}>
@@ -11,8 +13,10 @@ const Example3: React.FC = () => {
                 <div className={styles.split50}>
                     <div className={styles.flexLeft}>
                         <p >I'm an software developer student studying in Myyrmäen varia for 3:thrd year and this is my portfolio.</p>
-                        
+                        <h1>This was my first game</h1>
                     </div>
+
+                    
                     <div className={styles.flexRight}>
                         <img src={kuva} alt="gg" />
                     </div>
@@ -26,29 +30,27 @@ const Example3: React.FC = () => {
 
                             <div className={styles.projectCard}>
                                 <div className={styles.unityKuva}></div>
-                                <p>This is my first game</p>
+                                <p>First level of the game</p>
                             </div>
                                 
                             
                             <div className={styles.projectCard}>
                                 <div className={styles.unityKuva2}></div>
-                                <p>This is my first game</p>
+                                <p>Second level of the game</p>
                             </div>
                             
                             <div className={styles.projectCard}>
                                 <div className={styles.unityKuva3}></div>
-                                <p>This is my first game</p>
+                                <p>Pause menu</p>
                             </div>
 
                             <div className={styles.projectCard}>
                                 <div className={styles.unityKuva4}></div>
-                                <p>This is my first game</p>
+                                <p>Options menu</p>
                             </div>
 
                             <div className={styles.projectCard}>
-                                <div className={styles.unityText}>
-                                <p>This was my first game</p>
-                                </div>
+                                
                                 
                                 
                             </div>
@@ -64,7 +66,12 @@ const Example3: React.FC = () => {
 
                     </div>
                 </div>
-                <div className={styles.information}></div>
+                
+                <div className={styles.information}>
+                    <ul>
+                    <li className='fa fa-github grow'></li>
+                    </ul>
+                </div>
             </div>
         </div>
 

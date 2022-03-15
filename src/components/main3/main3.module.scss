@@ -27,22 +27,48 @@
 .container .flexRow .split50 .flexLeft {
     width: 50%;
     height: 100%;
-    text-align: center;
+    text-align: end;
     margin-top: 30px;
+    justify-content: end;
+    align-items: flex-end;
 
+    animation: slide normal;
+    animation-duration: 10s;
+    animation-delay: -2s;
+
+      @keyframes slide{
+        0%{margin-left:-2500px;}
+        20%{margin-left:-2500px;}
+        35%{margin-left:0px;}
+      100%{margin-left:0px;}
+      }
+      
     p {
         color: rgb(255, 255, 255);
-        padding:35px 47px;
-        background-color: rgba(255, 255, 255, 0);
-        box-shadow: 0px 0px 9px 3px #6a6a6a;
+        padding:55px 67px;
+        box-shadow: 0px 0px 9px 3px #6a6a6a50;
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         font-size: 22px
         
         
     }
+
+    h1 {
+        color: white;
+        width: 50%;
+        box-shadow: 0px 0px 9px 3px #6a6a6a50;
+        margin-top: 150px;
+        justify-content: end;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        
+    }
+
     
 }
+
+
 
 .container .flexRow .split50 .flexRight {
     width: 50%;
@@ -52,6 +78,19 @@
     margin-top: 30px;
     margin-bottom: 30px;
 
+animation: slide normal;
+    animation-duration: 10s;
+    animation-delay: -2s;
+
+      @keyframes slide{
+        0%{margin-right:+1500px;}
+        20%{margin-right:+1500px;}
+        35%{margin-right:0px;}
+      100%{margin-right:0px;}
+      }
+
+      
+
     
     img {
         height: 350px;
@@ -60,6 +99,8 @@
         box-shadow: 0px 0px 9px 3px #ffd591;
         border-radius: 15px;
         padding: 1px;
+        
+        
     }
 
     @media screen and (max-width: 630px) {
@@ -91,7 +132,7 @@
     flex-wrap: wrap;
     padding-top: 0px;
     padding-bottom: 0px;
-    margin-top: 30px;
+    margin-top: 50px;
     
     box-shadow: 0px 0px 9px 3px #6a6a6a;
 
@@ -116,7 +157,10 @@
 
 .container .flexRow .projektiKuvat .projectCard {
 
-    text-align: center;    
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 17px
     
 }
 
@@ -235,23 +279,24 @@
 
 .container .flexRow .projektiKuvat .unityText {
 
+    /*
     display: flex;
-   text-align: center;
-    justify-content: end;
+  
+    justify-content: start;
     width: 500px;
     height: 150px;
     margin-top: 50px;
+    margin-left: 55px;
     border-radius: 15px;
     
     
     color: rgb(0, 0, 0);
         
-        background-color: rgba(255, 255, 255, 0);
-        box-shadow: 0px 0px 9px 3px #6a6a6a;
+        box-shadow: 0px 0px 9px 3px #e4e4e4;
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         font-size: 32px
-        
+        */
 }
 
 .container .flexRow .information {
@@ -263,5 +308,28 @@
     background: black;
     height: 250px;
     margin-top: 150px;
+
+    background-color: blue;
+    color: white;
+    font-family: 'Droid Sans', sans-serif;
+    text-align: center;
+
+    ul {
+        padding: 0;
+        font-size: 2em;
+    
+        li {
+          display: inline-block;
+          width: 1.2em;
+    
+          &.grow {
+            transition: all .2s ease-in-out;
+    
+            &:hover {
+              transform: scale(1.5);
+            }
+          }
+        }
+      }
     
 }
