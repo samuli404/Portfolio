@@ -1,7 +1,7 @@
 // componentin perus layout
 .container {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     //background-color: #63a4ff;
     //background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
             background: rgb(134,201,210);
@@ -19,18 +19,18 @@
 }
 
 // splitattu flexrow
-.container .flexRow .split50 {
-    display: flex;
-    flex-direction: row;
-}
+
 
 .container .flexRow .split50 .flexLeft {
-    width: 50%;
-    height: 100%;
-    text-align: end;
-    margin-top: 30px;
-    justify-content: end;
-    align-items: flex-end;
+    width: 100%;
+    height: 200px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: bottom;
+    align-items: bottom;
+    border-radius: 50px 15px 15px 50px;
+    margin-bottom: 40px;
 
     animation: slide normal;
     animation-duration: 10s;
@@ -42,36 +42,42 @@
         35%{margin-left:0px;}
       100%{margin-left:0px;}
       }
+
+
+    .borderstyles{
+        display: flex;
+        flex-direction: column;
+        align-items: bottom;
+        justify-content: bottom;
+        
+         
+         
+         background-color: rgba(82, 82, 82, 0.13);
+         border-radius: 0px 0px 15px 15px;
+         
+        p {
+            
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 20px 20px;
+            
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 22px
+            
+        }
+        
+    
+    }
       
-    p {
-        color: rgb(255, 255, 255);
-        padding:55px 67px;
-        box-shadow: 0px 0px 9px 3px #6a6a6a50;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
-        font-size: 22px
-        
-        
-    }
-
-    h1 {
-        color: white;
-        width: 50%;
-        box-shadow: 0px 0px 9px 3px #6a6a6a50;
-        margin-top: 150px;
-        justify-content: end;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
-        
-    }
-
+    
     
 }
 
 
 
 .container .flexRow .split50 .flexRight {
-    width: 50%;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -132,7 +138,8 @@ animation: slide normal;
     flex-wrap: wrap;
     padding-top: 0px;
     padding-bottom: 0px;
-    margin-top: 50px;
+    margin-top: 100px;
+    
     
     box-shadow: 0px 0px 9px 3px #6a6a6a;
 
@@ -277,59 +284,51 @@ animation: slide normal;
     background-size: cover;
 }
 
-.container .flexRow .projektiKuvat .unityText {
+.container .flexRow .flexdown {
 
-    /*
     display: flex;
-  
-    justify-content: start;
-    width: 500px;
-    height: 150px;
-    margin-top: 50px;
-    margin-left: 55px;
-    border-radius: 15px;
-    
-    
-    color: rgb(0, 0, 0);
-        
-        box-shadow: 0px 0px 9px 3px #e4e4e4;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
-        font-size: 32px
-        */
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .container .flexRow .information {
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     background: black;
     height: 250px;
     margin-top: 150px;
 
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
     color: white;
     font-family: 'Droid Sans', sans-serif;
     text-align: center;
 
-    ul {
-        padding: 0;
-        font-size: 2em;
-    
-        li {
-          display: inline-block;
-          width: 1.2em;
-    
-          &.grow {
-            transition: all .2s ease-in-out;
-    
-            &:hover {
-              transform: scale(1.5);
-            }
-          }
+    a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    a svg {
+        height: 43px;
+        width: 43px;
+        transition: all .2s ease-in-out;
+        margin: 10px;
+        
+        &:hover{
+            color: rgb(148, 148, 148);
         }
-      }
+    }
+
+    .text{
+        color: lightyellow;
+        
+    font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 15px
+    }
     
 }
