@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.20bb43fa.css",
-    "main.js": "./static/js/main.a0ad220a.js",
+    "main.css": "./static/css/main.b2f42ade.css",
+    "main.js": "./static/js/main.a0e8ab5e.js",
     "static/media/Muokattu.jpg": "./static/media/Muokattu.c2a65b202d697660e92b.jpg",
-    "static/media/Background.jpg": "./static/media/Background.5240c2f6d9f74467792c.jpg",
     "static/media/menuicedodge.PNG": "./static/media/menuicedodge.c86f81625fba16bebfa1.PNG",
     "static/media/menukuva.PNG": "./static/media/menukuva.15c081867511b2dbdc07.PNG",
     "static/media/Sieppaaaaaaa.PNG": "./static/media/Sieppaaaaaaa.8122864af0dc162b7236.PNG",
     "static/media/1suhde1kuva.png": "./static/media/1suhde1kuva.c02ce5dac50c0fd06c2e.png",
     "index.html": "./index.html",
-    "main.20bb43fa.css.map": "./static/css/main.20bb43fa.css.map",
-    "main.a0ad220a.js.map": "./static/js/main.a0ad220a.js.map"
+    "main.b2f42ade.css.map": "./static/css/main.b2f42ade.css.map",
+    "main.a0e8ab5e.js.map": "./static/js/main.a0e8ab5e.js.map"
   },
   "entrypoints": [
-    "static/css/main.20bb43fa.css",
-    "static/js/main.a0ad220a.js"
+    "static/css/main.b2f42ade.css",
+    "static/js/main.a0e8ab5e.js"
   ]
 }
