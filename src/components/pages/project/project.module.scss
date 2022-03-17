@@ -12,15 +12,15 @@
 
 .container .content {
     background-color:rgba(255, 255, 255, 0.424);
-    display: flex;
-    // flex-direction: column;
+    display: flex;  
+     flex-direction: column;
     // justify-content: center;
     // align-items: center;
 
     height: 100%;
     width: 100%;
     margin: 0 15vw;
-    box-shadow: 0px 0px 9px 3px #a0a0a09f;
+    
 
 }
 
@@ -32,5 +32,107 @@
 
 
 .container .content .baseborders {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+
+    p {
+        color: white;
+    }
+
+}
+
+.container .content .baseborders2 {
+    display: flex;
+    background-color: rgb(255, 129, 255);
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
     
+}
+
+.container .content .baseborders2 .projects {
+    border-radius: 15px;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    //margin-top: 50px;
+    //margin-right: 0px;
+    //margin-left: 90px;
+    box-shadow: 0px 0px 9px 1px #86fff5;
+        text-align: center;
+        
+    
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        margin-top: 160px;
+        justify-content: center;
+        text-align: end;
+
+        &:hover{
+            color: rgb(148, 148, 148);
+        }
+    }
+}
+
+.container .content .baseborders2 .projects2 {
+    border-radius: 15px;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    //margin-top: 50px;
+    //margin-right: 0px;
+    //margin-left: 90px;
+    box-shadow: 0px 0px 9px 1px #86fff5;
+    
+
+    p {
+        color: white;
+        font-size: 20px;
+        margin-top: 160px;
+        text-align: center;
+    }
+}
+
+.container .content .baseborders2 .projects3 {
+    border-radius: 15px;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    //margin-top: 50px;
+    //margin-right: 0px;
+    //margin-left: 90px;
+    box-shadow: 0px 0px 9px 1px #86fff5;
+    
+
+    p {
+        color: white;
+        font-size: 20px;
+        margin-top: 160px;
+        text-align: center;
+    }
+}
+
+
+
+.container .content .baseborders3 {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(129, 255, 140);
+    justify-content: center;
+
+    p {
+        color: white;
+    }
+
 }

@@ -5,7 +5,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100vw;
     background: rgb(255, 255, 255);
     border-radius: 1px;
     
@@ -18,9 +17,9 @@ body{
   display: inline-block;
   
   font-weight: 800;
-  color: rgb(200, 200, 200);
+  color: rgb(201, 201, 201);
   overflow: hidden;
-  background: linear-gradient(to right, rgb(200, 200, 200), #86fff5 50%, rgb(200, 200, 200) 50%);
+  background: linear-gradient(to right, rgb(200, 200, 200), #86fff5 50%, rgb(201, 201, 201) 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

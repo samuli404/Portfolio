@@ -2,10 +2,7 @@ import React from 'react';
 import styles from './main3.module.scss';
 import kuva from '../media3/Muokattu.jpg'
 import { AiOutlineGithub } from 'react-icons/ai'
-import { SiGmail } from 'react-icons/si'
-import { SiUnity } from 'react-icons/si'
-
-
+import { SiGmail, SiUnity } from 'react-icons/si'
 
 
 const Example3: React.FC = () => {
