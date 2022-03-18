@@ -33,7 +33,6 @@
     
     text-shadow: -2px -2px #9c9c9c;
    }
-
    
 }
 
@@ -44,7 +43,7 @@
     flex-direction: column;
     
     background-color: rgb(255, 255, 255);
-    justify-content: start;
+    justify-content: flex-start;
     align-items: flex-start;
     text-align: center;
     box-shadow: 0px 0px 9px 1px #202020;
@@ -65,7 +64,7 @@
     margin: 0 15vw;
 
     p {
-    text-align: start;
+    text-align: flex-start;
     margin-left: 30px;
     justify-content: center;
     color: rgb(87, 87, 87);
@@ -98,7 +97,7 @@
 
    h3 {
     flex-direction: row;
-    text-align: start;
+    text-align: flex-start;
     margin-top: 50px;
     margin-left: 20px;
     font-size: 40px;
