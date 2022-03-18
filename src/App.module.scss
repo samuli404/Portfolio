@@ -9,17 +9,16 @@ body{
     border-radius: 1px;
     
     a{
-        margin: 0 20px;
-        //color: rgb(200, 200, 200);
-        font-size: 25px;
-        font-style:inherit;
-        position: relative;
-  display: inline-block;
+    margin: 0 20px;
+    font-size: 25px;
+    font-style:inherit;
+    position: relative;
+    display: inline-block;
   
   font-weight: 800;
-  color: rgb(201, 201, 201);
+  color: rgb(200, 200, 200);
   overflow: hidden;
-  background: linear-gradient(to right, rgb(200, 200, 200), #86fff5 50%, rgb(201, 201, 201) 50%);
+  background: linear-gradient(to right, rgb(200, 200, 200), #86fff5 50%, rgb(148, 148, 148) 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
