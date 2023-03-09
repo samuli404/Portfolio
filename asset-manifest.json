@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.a2738f0a.css",
-    "main.js": "./static/js/main.14b994e0.js",
+    "main.js": "./static/js/main.ea272bc6.js",
     "static/media/Muokattu.jpg": "./static/media/Muokattu.c2a65b202d697660e92b.jpg",
     "static/media/menuicedodge.PNG": "./static/media/menuicedodge.c86f81625fba16bebfa1.PNG",
     "static/media/menukuva.PNG": "./static/media/menukuva.15c081867511b2dbdc07.PNG",
@@ -12,10 +12,10 @@
     "static/media/Verkkosivuun2.jpg": "./static/media/Verkkosivuun2.e5e15136f46102f75700.jpg",
     "index.html": "./index.html",
     "main.a2738f0a.css.map": "./static/css/main.a2738f0a.css.map",
-    "main.14b994e0.js.map": "./static/js/main.14b994e0.js.map"
+    "main.ea272bc6.js.map": "./static/js/main.ea272bc6.js.map"
   },
   "entrypoints": [
     "static/css/main.a2738f0a.css",
-    "static/js/main.14b994e0.js"
+    "static/js/main.ea272bc6.js"
   ]
 }
