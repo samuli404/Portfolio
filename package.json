@@ -9,8 +9,6 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.4.0",
     "@types/node": "^16.11.21",
-    "@types/react": "^17.0.38",
-    "@types/react-dom": "^17.0.11",
     "autoprefixer": "^10.4.4",
     "node-sass": "^7.0.1",
     "react": "^17.0.2",
@@ -46,6 +44,9 @@
     ]
   },
   "devDependencies": {
+    "@types/aria-query": "^5.0.1",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
     "@types/react-router-dom": "^5.3.3"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
